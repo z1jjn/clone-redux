@@ -214,7 +214,7 @@ if(cloneSummary.trim().length >= 1)
             type: 'error',
             close: 'auto',
             title: 'Error',
-            body: "Please contact johanne. Reloading the page in 5 seconds.",
+            body: "Reloading the page in 5 seconds.",
     	});
  		setInterval(function() {
    		window.location.reload(true)
